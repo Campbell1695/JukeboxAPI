@@ -1,0 +1,48 @@
+#container_div
+{
+  position: absolute;
+  left: 174.7px;
+  width: 1000px;
+  height: 500px;
+}
+#songList_div
+{
+  background-color: lightblue;
+  overflow: auto;
+  width: 275px;
+  text-align: center;
+  height: 200px;
+  position: absolute;
+  left: 700px;
+  top: 175px;
+  opacity: .85;
+}
+
+#songs_h2
+{
+  position: absolute;
+  left: 700px;
+  top: 125px;
+}
+
+#background_img
+{
+  position: absolute;
+  left: 174.7px;
+  box-shadow: 0px 0px 20px 2px black;
+}
+
+#search_button
+{
+  position: absolute;
+  left: 925px;
+  top: 25px;
+  border-radius: 30px;
+}
+
+#search_input
+{
+  position: absolute;
+  left: 745px;
+  top: 25px;
+}

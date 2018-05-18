@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript" src="main.js"></script>
+  <title>Jukebox</title>
+</head>
+
+<body>
+  <img id=background_img src ="background.jpg" width="1000px" height="500">
+
+  <div id="container_div">
+    <h1 id="api_h1">SoundCloudAPI</h1>
+
+    <div id="songTitle_div">Song title...</div>
+
+    <img id="play_img" src="Play-Button.png" width="30px">
+    <img id="pause_img" src="pause-button.png" width="30px">
+
+    <div id="artistName_div"><b>Artist: </b>name...</div>
+
+    <input id="search_input" name="search-query" type="text">
+    <button id="search_button">Search</button>
+
+    <p id="songLink_p"><a id="songlink_a" target="_blank" href="#">View on Soundcloud</a></p>
+    <p id="artistLink_p"><a id="artistlink_a" target="_blank" href="#">View artist's Soundcloud Profile</a></p>
+    <p id="genre_p"></p>
+    <div id="description_div"></div>
+    <p id="releaseDate_p"></p>
+    <div id="artwork_div"><img id="artwork_img" src="" width="auto"></div>
+    <h2 id="songs_h2">Songs</h2>
+    <div id="songList_div"></div>
+  </div>
+</body>
+</html>
