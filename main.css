@@ -25,6 +25,23 @@
   top: 125px;
 }
 
+#songLink_p
+{
+  position: absolute;
+  top: 375px;
+  left: 771.5px;
+  color: black;
+  text-shadow: -1px 0px 0px floralwhite;
+}
+#artistLink_p
+{
+  position: absolute;
+  top: 425px;
+  left: 771.5px;
+  color: black;
+  text-shadow: -1px 0px 0px floralwhite;
+}
+
 #background_img
 {
   position: absolute;

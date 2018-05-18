@@ -1,5 +1,6 @@
 SC.initialize({
     client_id: ''
+    //
 });
 
 
@@ -51,7 +52,7 @@ function Jukebox ()
             results = response;
             response.forEach(function(obj) {
                 let box = document.createElement('div');
-                box.setAttribute("style", "border:ridge; border-color:#003ba");
+                box.setAttribute("style", "border:ridge; border-color:black");
                 box.addEventListener("click", ()=>{
                     x.SongId(obj.id);
                     x.SongTitle(obj.title);
